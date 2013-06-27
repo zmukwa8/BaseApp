@@ -9,10 +9,16 @@
 /* Begin PBXBuildFile section */
 		AC03B56A1725F1D800BB7889 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC03B5691725F1D800BB7889 /* Cocoa.framework */; };
 		AC03B5741725F1D800BB7889 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC03B5721725F1D800BB7889 /* InfoPlist.strings */; };
-		AC03B5761725F1D800BB7889 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03B5751725F1D800BB7889 /* main.m */; };
 		AC03B57A1725F1D800BB7889 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = AC03B5781725F1D800BB7889 /* Credits.rtf */; };
-		AC03B57D1725F1D800BB7889 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03B57C1725F1D800BB7889 /* AppDelegate.m */; };
-		AC03B5801725F1D800BB7889 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC03B57E1725F1D800BB7889 /* MainMenu.xib */; };
+		AC964A08172630710067F66C /* BaseApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AC964A06172630710067F66C /* BaseApp.cpp */; };
+		AC9C4A1D17263FF800F14075 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A1C17263FF800F14075 /* Accelerate.framework */; };
+		AC9C4A1F1726405600F14075 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A1E1726405600F14075 /* AudioToolbox.framework */; };
+		AC9C4A211726407000F14075 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A201726407000F14075 /* AudioUnit.framework */; };
+		AC9C4A231726408E00F14075 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A221726408E00F14075 /* CoreAudio.framework */; };
+		AC9C4A25172640B800F14075 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A24172640B800F14075 /* CoreVideo.framework */; };
+		AC9C4A27172640F000F14075 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A26172640F000F14075 /* OpenGL.framework */; };
+		AC9C4A291726411000F14075 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A281726411000F14075 /* QTKit.framework */; };
+		AC9C4A2B1726413C00F14075 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC9C4A2A1726413C00F14075 /* QuickTime.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +27,19 @@
 		AC03B56C1725F1D800BB7889 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		AC03B56D1725F1D800BB7889 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AC03B56E1725F1D800BB7889 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		AC03B5711725F1D800BB7889 /* BaseApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BaseApp-Info.plist"; sourceTree = "<group>"; };
 		AC03B5731725F1D800BB7889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		AC03B5751725F1D800BB7889 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AC03B5771725F1D800BB7889 /* BaseApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BaseApp-Prefix.pch"; sourceTree = "<group>"; };
 		AC03B5791725F1D800BB7889 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		AC03B57B1725F1D800BB7889 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		AC03B57C1725F1D800BB7889 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AC03B57F1725F1D800BB7889 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		AC964A06172630710067F66C /* BaseApp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BaseApp.cpp; sourceTree = "<group>"; };
+		AC964A07172630710067F66C /* BaseApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseApp.h; sourceTree = "<group>"; };
+		AC9C4A1C17263FF800F14075 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		AC9C4A1E1726405600F14075 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		AC9C4A201726407000F14075 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		AC9C4A221726408E00F14075 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		AC9C4A24172640B800F14075 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		AC9C4A26172640F000F14075 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		AC9C4A281726411000F14075 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		AC9C4A2A1726413C00F14075 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = System/Library/Frameworks/QuickTime.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +47,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC9C4A2B1726413C00F14075 /* QuickTime.framework in Frameworks */,
+				AC9C4A291726411000F14075 /* QTKit.framework in Frameworks */,
+				AC9C4A27172640F000F14075 /* OpenGL.framework in Frameworks */,
+				AC9C4A25172640B800F14075 /* CoreVideo.framework in Frameworks */,
+				AC9C4A231726408E00F14075 /* CoreAudio.framework in Frameworks */,
+				AC9C4A211726407000F14075 /* AudioUnit.framework in Frameworks */,
+				AC9C4A1F1726405600F14075 /* AudioToolbox.framework in Frameworks */,
+				AC9C4A1D17263FF800F14075 /* Accelerate.framework in Frameworks */,
 				AC03B56A1725F1D800BB7889 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +65,16 @@
 		AC03B55D1725F1D800BB7889 = {
 			isa = PBXGroup;
 			children = (
+				AC9C4A2A1726413C00F14075 /* QuickTime.framework */,
+				AC9C4A281726411000F14075 /* QTKit.framework */,
+				AC9C4A26172640F000F14075 /* OpenGL.framework */,
+				AC9C4A24172640B800F14075 /* CoreVideo.framework */,
+				AC9C4A221726408E00F14075 /* CoreAudio.framework */,
+				AC9C4A201726407000F14075 /* AudioUnit.framework */,
+				AC9C4A1E1726405600F14075 /* AudioToolbox.framework */,
+				AC9C4A1C17263FF800F14075 /* Accelerate.framework */,
+				AC964A06172630710067F66C /* BaseApp.cpp */,
+				AC964A07172630710067F66C /* BaseApp.h */,
 				AC03B56F1725F1D800BB7889 /* BaseApp */,
 				AC03B5681725F1D800BB7889 /* Frameworks */,
 				AC03B5671725F1D800BB7889 /* Products */,
@@ -82,9 +111,6 @@
 		AC03B56F1725F1D800BB7889 /* BaseApp */ = {
 			isa = PBXGroup;
 			children = (
-				AC03B57B1725F1D800BB7889 /* AppDelegate.h */,
-				AC03B57C1725F1D800BB7889 /* AppDelegate.m */,
-				AC03B57E1725F1D800BB7889 /* MainMenu.xib */,
 				AC03B5701725F1D800BB7889 /* Supporting Files */,
 			);
 			path = BaseApp;
@@ -93,9 +119,7 @@
 		AC03B5701725F1D800BB7889 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AC03B5711725F1D800BB7889 /* BaseApp-Info.plist */,
 				AC03B5721725F1D800BB7889 /* InfoPlist.strings */,
-				AC03B5751725F1D800BB7889 /* main.m */,
 				AC03B5771725F1D800BB7889 /* BaseApp-Prefix.pch */,
 				AC03B5781725F1D800BB7889 /* Credits.rtf */,
 			);
@@ -155,7 +179,6 @@
 			files = (
 				AC03B5741725F1D800BB7889 /* InfoPlist.strings in Resources */,
 				AC03B57A1725F1D800BB7889 /* Credits.rtf in Resources */,
-				AC03B5801725F1D800BB7889 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,8 +189,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC03B5761725F1D800BB7889 /* main.m in Sources */,
-				AC03B57D1725F1D800BB7889 /* AppDelegate.m in Sources */,
+				AC964A08172630710067F66C /* BaseApp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +210,6 @@
 				AC03B5791725F1D800BB7889 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		AC03B57E1725F1D800BB7889 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC03B57F1725F1D800BB7889 /* en */,
-			);
-			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -261,11 +275,16 @@
 		AC03B5841725F1D800BB7889 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CINDER_PATH = /Users/zmukwa/cinder;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BaseApp/BaseApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "BaseApp/BaseApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(CINDER_PATH)/boost";
+				OTHER_LDFLAGS = "$(CINDER_PATH)/lib/libcinder_d.a";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(CINDER_PATH)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,11 +292,16 @@
 		AC03B5851725F1D800BB7889 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CINDER_PATH = /Users/zmukwa/cinder;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "BaseApp/BaseApp-Prefix.pch";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = "BaseApp/BaseApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = "$(CINDER_PATH)/boost";
+				OTHER_LDFLAGS = "$(CINDER_PATH)/lib/libcinder.a";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(CINDER_PATH)";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -301,6 +325,7 @@
 				AC03B5851725F1D800BB7889 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
